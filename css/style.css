@@ -322,7 +322,7 @@ header .arrow a:hover {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: url(../img/img-test1.jpg) no-repeat fixed center center / cover;
+    background: url(../img/machine.jpg) no-repeat fixed center center / cover;
     overflow: hidden;
 }
 
@@ -333,7 +333,7 @@ header .arrow a:hover {
 
 #about a:hover,
 #about a:focus {
-    color: #63E46F;
+    color: #94e09c;
 }
 
 #about h1 {
@@ -428,12 +428,22 @@ header .arrow a:hover {
     float: none;
 }
 
-#about .button {
-    background: none repeat scroll 0 0 #63E46F;
-    display: inline;
-    margin-right: 10px;
-    margin-top: 6px;
+#about .download {
+    margin-top: 25px;
+    width: 90%;
+    float: none;
 }
+
+#about .download .button {
+    margin-top: 6px;
+    background: #63E46F;
+}
+
+#about .download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+}
+
 
 #about .bio-container {
     width: 100%;
@@ -447,32 +457,15 @@ header .arrow a:hover {
 
 #about .bio-left {
     background: rgba(0, 0, 0, 0.6);
-    height: 500px;
-    padding: 60px 30px;
-}
-
-#about .main-col {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
-    height: 500px;
+    /*height: 100vh;*/
     padding: 60px;
 }
 
-.arrow-left {
-    border-bottom: 25px solid transparent;
-    border-right: 25px solid rgba(0, 0, 0, 0.5);
-    border-top: 25px solid transparent;
-    height: 0;
-    left: -25px;
-    position: absolute;
-    top: 40%;
-    width: 0;
-    z-index: 10;
-}
 
 
 #about .download .button {
     margin-top: 6px;
-    background: #63E46F;
+    background: #70cbffc7;
 }
 
 #about .download .button:hover {
@@ -485,12 +478,37 @@ header .arrow a:hover {
     font-size: 20px;
 }
 
+#about .main-col {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    color: white;
+
+}
+
+.main-col .paragraph {
+    color: white;
+}
+
+.main-col .paragraph .para {
+    color: white;
+}
+
+#about .section-title:before {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    content: "\f007";
+}
+
+#about p {
+    line-height: 30px;
+    color: #fff;
+}
 
 .h2 {
     text-transform: uppercase !important;
 }
 
-.about-area .container-fluid {
+/*.about-area .container-fluid {
     background-image: url('../img/aboutPlane.jpg');
     background-attachment: cover;
     background-repeat: no-repeat;
@@ -498,7 +516,7 @@ header .arrow a:hover {
 }
 
 .about-title {
-    background-color: whitesmoke;
+    background-color: rgb(36, 20, 20);
 }
 
 .site-title,
@@ -516,16 +534,8 @@ header .arrow a:hover {
 .site-desc {
     font-size: 14px;
     /*padding-left: 15%;*/
-}
+/*}*/
 
-.site-btn {
-    margin-top: 10%;
-    margin-bottom: 40%;
-    margin-left: 25%;
-    background-color: white;
-    color: black;
-
-}
 
 .section-resume {
     margin-top: 8%;
@@ -537,7 +547,6 @@ header .arrow a:hover {
     margin-bottom: 2%;
     font-size: 36px;
     font-family: 'Lato';
-    color: #7dbbee;
 }
 
 .section-resume .para-resume {
