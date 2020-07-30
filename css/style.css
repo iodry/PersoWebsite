@@ -200,8 +200,8 @@ header .banner-text h3 {
     /*font-family: 'Raleway', sans-serif;*/
     color: #FEFEFE;
     margin: 50px auto;
-    width: 70%;
-    font-size: 22px;
+    width: 80%;
+    font-size: 20px;
 }
 
 header .banner-text h3 span,
@@ -332,9 +332,9 @@ header .arrow a:hover {
 }
 
 #about a:hover,
-#about a:focus {
+/*#about a:focus {
     color: #94e09c;
-}
+}*/
 
 #about h1 {
     color: #fff;
@@ -434,15 +434,6 @@ header .arrow a:hover {
     float: none;
 }
 
-#about .download .button {
-    margin-top: 6px;
-    background: #63E46F;
-}
-
-#about .download .button:hover {
-    background: #fff;
-    color: #2B2B2B;
-}
 
 
 #about .bio-container {
@@ -469,11 +460,16 @@ header .arrow a:hover {
 }
 
 #about .download .button:hover {
-    background: #fff;
+    background: rgb(150, 213, 255);
     color: #2B2B2B;
 }
 
 #about .button i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+#about .button a {
     margin-right: 15px;
     font-size: 20px;
 }
@@ -508,34 +504,55 @@ header .arrow a:hover {
     text-transform: uppercase !important;
 }
 
-/*.about-area .container-fluid {
-    background-image: url('../img/aboutPlane.jpg');
-    background-attachment: cover;
-    background-repeat: no-repeat;
-    background-size: 55% 155%;
-}
-
-.about-title {
-    background-color: rgb(36, 20, 20);
-}
-
-.site-title,
-.site-desc {
-    color: white;
-    font-family: 'Roboto';
-}
-
-.site-title {
-    margin-top: 0%;
-    margin-bottom: 6%;
-    font-size: 50px;
-}
-
-.site-desc {
+footer {
+    padding-top: 48px;
+    margin-bottom: 48px;
+    color: #303030;
     font-size: 14px;
-    /*padding-left: 15%;*/
-/*}*/
+    text-align: center;
+    position: relative;
+}
 
+footerP {
+    padding-top: 48px;
+    margin-bottom: 48px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+/* Go To Top Button */
+#go-top {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+#go-top a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #525252;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    color: #fff;
+    font-size: 21px;
+    line-height: 60px;
+    border-radius: 100%;
+}
+
+#go-top a:hover {
+    background-color: #0F9095;
+}
 
 .section-resume {
     margin-top: 8%;
@@ -598,4 +615,5 @@ header .arrow a:hover {
     100% {
         content: 'Creative';
     }
+
 }
