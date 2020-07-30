@@ -91,7 +91,7 @@ body {
 
 .section-title {
     /*border: 2px solid;*/
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif;*/
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -107,6 +107,11 @@ body {
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
+}
+
+.service-title {
+    font-size: 30px;
+    padding: 20px;
 }
 
 /*.section-title:after {
@@ -191,7 +196,7 @@ header .banner-text h1 {
 }
 
 header .banner-text h1 span {
-    font-weight: 900;
+    font-weight: 90;
     text-transform: uppercase;
 }
 
@@ -349,8 +354,8 @@ header .arrow a:hover {
 
 
 #about h2 {
-    font: 22px/30px 'Open Sans', sans-serif;
-    font-weight: 700;
+    /* font: 22px/30px 'Open Sans', sans-serif;
+    font-weight: 700;*/
     color: #fff;
     margin-bottom: 12px;
     text-align: center;
@@ -358,10 +363,11 @@ header .arrow a:hover {
 
 
 #about h3 {
-    border-bottom: 3px solid #fff;
+    /*border-bottom: 3px solid #fff;*/
     color: #fff;
-    font: 400 18px/24px "Raleway", sans-serif;
-    margin-bottom: 15px;
+    font: 400 18px
+        /* "Raleway", sans-serif;*/
+        margin-bottom: 15px;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -520,6 +526,11 @@ footerP {
     font-size: 14px;
     text-align: center;
     position: relative;
+}
+
+.pied {
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 200px;
 }
 
 /* Go To Top Button */
